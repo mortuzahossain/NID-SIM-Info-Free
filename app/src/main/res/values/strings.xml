@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">NID &amp; SIM Info Free</string>
+
+    <array name="operators">
+        <item>Grameenphone</item>
+        <item>Banglalink</item>
+        <item>Roby</item>
+        <item>Airtel</item>
+        <item>Teletalk</item>
+    </array>
+
+</resources>
