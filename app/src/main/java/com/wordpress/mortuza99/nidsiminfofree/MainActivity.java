@@ -14,15 +14,13 @@ import com.muddzdev.styleabletoastlibrary.StyleableToast;
 
 public class MainActivity extends AppCompatActivity {
 
-    ListView listView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        listView = findViewById(R.id.list_item);
+        ListView listView = findViewById(R.id.list_item);
 
         String[] operators = getApplicationContext().getResources().getStringArray(R.array.operators);
         ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, operators);
